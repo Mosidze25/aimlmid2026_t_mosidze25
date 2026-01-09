@@ -2,6 +2,10 @@ Finding the correlation - correlation.py file
 The given dataset consists of 8 paired observations representing two numerical variables x and y. Each pair corresponds to a point in a two-dimensional plane. The goal of this assignment is to measure the strength and direction of the linear relationship between these two variables using Pearson’s correlation coefficient.
 In this assignment, Pearson’s correlation coefficient was computed both numerically and visually. The calculated value of r≈0.998 demonstrates a nearly perfect positive linear correlation between the two variables. Both the manual calculations and the visualization consistently confirm the strength and direction of this relationship.
 
+<p align="center">
+  <img src="images/correlation.jpeg" width="500">
+</p>
+
 Spam email detection:
 
 Step 1: Data Loading
@@ -29,3 +33,15 @@ The application includes functionality to process raw email text. Each email is 
 
 Step 7: Spam and Legitimate Email Classification
 The extracted features are passed to the trained Logistic Regression model to classify emails as spam or legitimate. A manually composed spam email and a legitimate email were tested, and the model correctly classified each based on learned feature patterns.
+
+<p align="center">
+  <img src="images/heatmap.jpeg" width="500">
+</p>
+
+<p align="center">
+  <img src="images/dist.jpeg" width="500">
+</p>
+
+<p align="center">
+  <img src="images/output.jpeg" width="500">
+</p>
