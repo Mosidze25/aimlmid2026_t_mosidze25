@@ -5,6 +5,9 @@ In this assignment, Pearson’s correlation coefficient was computed both numeri
 <p align="center">
   <img src="images/correlation.jpeg" width="500">
 </p>
+<p align="center">
+  <img src="images/graph.jpeg" width="500">
+</p>
 
 Spam email detection:
 
