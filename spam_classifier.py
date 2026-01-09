@@ -71,12 +71,15 @@ ax.format_coord = lambda x, y: f"x={x:.2f}, y={y:.2f}"
 plt.show()
 
 # Step 5
+counts = df["is_spam"].value_counts().sort_index()
+
 plt.figure()
-df["is_spam"].value_counts().plot(kind="bar")
-plt.xlabel("Email Class (0 = Legitimate, 1 = Spam)")
+plt.bar(["Legitimate", "Spam"], counts.values)
+plt.xlabel("Email Class")
 plt.ylabel("Count")
 plt.title("Class Distribution of Emails")
 plt.show()
+
 
 # Step 6
 def classify_email(words, links, capital_words, spam_word_count):
